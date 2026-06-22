@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f1f3f6;
+  --color-bg-alt: #ffffff;
+  --color-paper: #fffdf8;
+
+  --color-ink: #12161d;
+  --color-ink-soft: #5a6472;
+
+  --color-accent: #0e6e74;
+  --color-accent-deep: #0a5458;
+  --color-accent-soft: #e2f0f0;
+
+  --color-pop: #e08a3c;
+  --color-pop-soft: #fbead3;
+
+  --color-line: #dde3e8;
+
+  --color-vsc: #10171F;
+}
