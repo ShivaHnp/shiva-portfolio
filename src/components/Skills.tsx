@@ -20,7 +20,7 @@ export default function Skills() {
                 frameworks: ["React", "Tailwind CSS", "Bootstrap"],
                 tools: ["Git", "Github", "VS Code", "Vite", "Figma"],
             };`}
-                    </pre>
+                </pre>
             </div>
         </section>
     )
