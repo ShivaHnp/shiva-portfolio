@@ -7,7 +7,7 @@ export default function Contact() {
                 <p className="text-ink-soft mb-8">I'd love to talk about oppurtunities, or just frontend stuff</p>
                 <div className="flex gap-4 justify-center">
                     <a 
-                        href="emailto:shivahp75@gmail.com" 
+                        href="mailto: shivahp75@gmail.com" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-sm font-medium text-white bg-white/5 border border-white/15 rounded-lg px-5 py-3 hover:border-accent hover:text-accent-soft duration-300"

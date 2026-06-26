@@ -18,7 +18,7 @@ export default function Header() {
                     <a href="#contact" className="bg-ink text-bg-alt text-md rounded-md font-medium px-4 py-2 text-center md:w-auto md:w-auto hover:bg-accent duration-300">Contact</a>
                 </div>
                 <button 
-                    className="md:hidden text-ink-soft"
+                    className="md:hidden text-ink-soft text-2xl"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? '✕' : '☰'}
