@@ -12,6 +12,7 @@ const projects: Project[] = [
     description: "A website for an interior design client, with a contact form and an album-style gallery to showcase completed projects.",
     tags: ["React", "Tailwind CSS"],
     liveUrl: "https://interior-studio-cevu.vercel.app/",
+    githubUrl: "https://github.com/ShivaHnp/interior-studio",
     },
     {
     title: "Personal Developer Site",
@@ -21,8 +22,15 @@ const projects: Project[] = [
     },
     {
     title: "Sports Website",
-    description: "A multi-page sports website built collaboratively worked, using HTML, CSS, and JavaScript.",
+    description: "A multi-page sports website built collaboratively, using HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/ShivaHnp/interior-studio"
+    },
+    {
+    title: "AI Dashboard",
+    description: "A dashboard UI for a system that searches through documents digitized from paper into data using AI, and answers questions based on that data. I built the frontend only — the AI and backend were handled by someone else.",
+    tags: ["React", "Tailwind CSS"],
+    githubUrl: "https://github.com/ShivaHnp/amco-system"
     },
 ]
 
@@ -58,6 +66,17 @@ export default function Projects() {
                             className="text-sm font-medium text-accent-deep underline mt-4 inline-block"
                         >
                             View Project
+                        </a>
+                    )}
+                    <br />
+                        {project.githubUrl && (
+                        <a
+                            href={project.githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm font-medium text-accent-deep underline mt-4 inline-block"
+                        >
+                            View Code
                         </a>
                     )}
                     </div>
