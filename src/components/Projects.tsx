@@ -3,7 +3,7 @@ interface Project {
     description: string;
     tags: string[];
     liveUrl?: string;
-    githuburl?: string;
+    githubUrl?: string;
 }
 
 const projects: Project[] = [
@@ -11,6 +11,7 @@ const projects: Project[] = [
     title: "Interior Design Studio Website",
     description: "A website for an interior design client, with a contact form and an album-style gallery to showcase completed projects.",
     tags: ["React", "Tailwind CSS"],
+    liveUrl: "https://interior-studio-cevu.vercel.app/",
     },
     {
     title: "Personal Developer Site",
@@ -48,6 +49,16 @@ export default function Projects() {
                                 </span>
                             ))}
                         </div>
+                        {project.liveUrl && (
+                        <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm font-medium text-accent-deep underline mt-4 inline-block"
+                        >
+                            View Project
+                        </a>
+                    )}
                     </div>
                 ))}
             </div>
