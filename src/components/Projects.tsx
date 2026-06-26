@@ -17,10 +17,11 @@ const projects: Project[] = [
     title: "Personal Developer Site",
     description: "This very site — built from scratch with React, TypeScript, and Tailwind CSS to showcase my work and skills.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
+    liveUrl: "https://shiva-portfolio-eosin.vercel.app/",
     },
     {
     title: "Sports Website",
-    description: "A multi-page sports website built collaboratively with my sister, using HTML, CSS, and JavaScript.",
+    description: "A multi-page sports website built collaboratively worked, using HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
     },
 ]
