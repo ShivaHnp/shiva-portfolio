@@ -4,7 +4,7 @@ export default function About() {
         <section id="about" className="bg-bg-alt border-y border-line py-24">
             <div className="mx-auto max-w-6xl px-5 grid md:grid-cols-[0.8fr_1.2fr] gap-16">
                 <img 
-                    src="/public/profile.PNG"
+                    src="/profile.PNG"
                     alt="S.H - Frontend Developer" 
                     
                     className="object-cover w-full h-full" 
