@@ -1,10 +1,14 @@
+
 export default function About() {
     return(
         <section id="about" className="bg-bg-alt border-y border-line py-24">
             <div className="mx-auto max-w-6xl px-5 grid md:grid-cols-[0.8fr_1.2fr] gap-16">
-                <div className="max-w-[260px] bg-accent-soft aspect-[4/5] flex items-center justify-center text-accent-deep font-mono text-4xl font-bold rounded-lg">
-                    s.h
-                </div>
+                <img 
+                    src="/public/profile.PNG"
+                    alt="S.H - Frontend Developer" 
+                    
+                    className="object-cover w-full h-full" 
+                />
                 <div>
                     <span className="block text-xs font-mono uppercase tracking-wider text-ink-soft mb-2">About</span>
                     <h2 className="text-2xl md:text-3xl font-semibold tracking-tight mb-5">
